@@ -1,10 +1,10 @@
 import pandas as pd
 import random
 
-# 1. Definizione dei cluster operativi (Dipartimenti)
+# Definizione dei cluster operativi (Dipartimenti)
 aree_operative = ['Housekeeping', 'Reception', 'F&B']
 
-# 2. NUOVO DIZIONARIO OTTIMIZZATO (Inseriscilo qui)
+# DIZIONARIO 
 frasi_campione = {
     'Housekeeping': [
         "Ambiente igienizzato e profumato", "Arredi curati e pulizia profonda", 
@@ -37,7 +37,7 @@ def generate_dataset(num_rows=1500):
         reparto = random.choice(aree_operative)
         recensione = random.choice(frasi_campione[reparto])
         
-        # Logica migliorata: se la frase contiene una parola negativa, il sentiment è Negativo
+        # Logica: se la frase contiene una parola negativa, il sentiment è Negativo
         if any(parola in recensione.lower() for parola in parole_negative):
             sentiment = "Negativo"
         else:
@@ -50,5 +50,4 @@ def generate_dataset(num_rows=1500):
     print(f" Dataset aggiornato con {num_rows} righe.")
 
 if __name__ == "__main__":
-
     generate_dataset()
