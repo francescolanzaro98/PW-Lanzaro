@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Configurazione pagina
-st.set_page_config(page_title="Hospitality AI - Analisi Recensioni", page_icon="🏨")
+st.set_page_config(page_title="Hospitality AI - Analisi Recensioni", page_icon=" ")
 
 # 1. Caricamento del modello salvato
 @st.cache_resource # Serve per caricare il modello una sola volta e velocizzare l'app
@@ -52,3 +52,4 @@ st.sidebar.info("Sviluppato da: **Francesco Lanzaro**")
 st.sidebar.write("Modello: Logistic Regression")
 
 st.sidebar.write("Vettorizzazione: TF-IDF")
+
