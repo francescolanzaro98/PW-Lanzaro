@@ -47,9 +47,10 @@ if st.button("Analizza Recensione"):
         st.warning("Per favore, inserisci un testo per procedere.")
 
 # Footer informativo per la tesi
-st.sidebar.markdown("### Project Work Informatica")
+st.sidebar.markdown(" Project Work ")
 st.sidebar.info("Sviluppato da: **Francesco Lanzaro**")
 st.sidebar.write("Modello: Logistic Regression")
 
 st.sidebar.write("Vettorizzazione: TF-IDF")
+
 
