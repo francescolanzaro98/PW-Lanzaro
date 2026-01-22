@@ -47,10 +47,11 @@ if st.button("Analizza Recensione"):
         st.warning("Per favore, inserisci un testo per procedere.")
 
 # Footer informativo per la tesi
-st.sidebar.markdown(" Project Work ")
+st.sidebar.markdown(" Project Work : Automazione e ottimizzazione dei flussi operativi nel settore Hospitality: un approccio basato su Machine Learning per l'analisi delle recensioni.")
 st.sidebar.info("Sviluppato da: **Francesco Lanzaro**")
 st.sidebar.write("Modello: Logistic Regression")
 
 st.sidebar.write("Vettorizzazione: TF-IDF")
+
 
 
