@@ -47,7 +47,8 @@ def generate_dataset(num_rows=1500):
     
     df = pd.DataFrame(data, columns=['testo_recensione', 'reparto', 'sentiment'])
     df.to_csv('dataset_hotel.csv', index=False, encoding='utf-8')
-    print(f"✅ Dataset aggiornato con {num_rows} righe.")
+    print(f" Dataset aggiornato con {num_rows} righe.")
 
 if __name__ == "__main__":
+
     generate_dataset()
