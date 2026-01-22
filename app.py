@@ -18,7 +18,7 @@ except:
     st.stop()
 
 # 2. Interfaccia Utente
-st.title("🏨 Hospitality Intelligence")
+st.title("Hospitality Intelligence")
 st.subheader("Classificazione Automatica e Analisi del Sentiment")
 st.write("Inserisci una recensione dell'hotel per smistarla al reparto corretto.")
 
@@ -50,4 +50,5 @@ if st.button("Analizza Recensione"):
 st.sidebar.markdown("### Project Work Informatica")
 st.sidebar.info("Sviluppato da: **Francesco Lanzaro**")
 st.sidebar.write("Modello: Logistic Regression")
+
 st.sidebar.write("Vettorizzazione: TF-IDF")
